@@ -1,0 +1,44 @@
+﻿<Window x:Class="Kestrel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kestrel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <!--기본 컨트롤들-->
+        <TextBlock Text="TextBlock"/>
+        <TextBox Text="TextBox"/>
+        <ProgressBar Width="60" Height="20" Value="50"/>
+        <Slider Width="60" Value="5"/>
+        <PasswordBox Password="041008"/>
+
+        <!--Image Source="imgs/15_Jun_22_13_15_모작.png" Height ="300"/-->
+
+        <!--콘텐츠 컨트롤-->
+        
+        <!--누르기 만 존재하는 버튼-->
+        <Button Content="btnText" Width="200" Margin="0 10px 0 0"/>
+        <!--On/Off가 존재하는 버튼-->
+        <ToggleButton Content="ToggleButton" Width="200"/>
+        
+        <!--content 속성을 사용하는 대신 직접 요소 지정-->
+        <CheckBox Width="100">
+            <TextBlock
+                Text="Avec un retour a la ligne"
+                TextWrapping="Wrap"/>
+        </CheckBox>
+        <RadioButton Content="RadioButton"/>
+
+        <Border Background="Orange" CornerRadius="10" Padding="5">
+            <Button Content="un button" Width="100"/>
+        </Border>
+        <Border Background="Blue" CornerRadius="10 0 10 0" Padding="5">
+            <Button Content="un button" Width="100"/>
+        </Border>
+        <ScrollViewer Height="100" Width="100" HorizontalScrollBarVisibility="Auto">
+            <MediaElement Source="imgs/15_Jun_22_13_15_모작.png" Stretch="None"/>
+        </ScrollViewer>
+    </StackPanel>
+</Window>
