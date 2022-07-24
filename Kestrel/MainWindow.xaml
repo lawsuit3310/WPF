@@ -37,8 +37,14 @@
         <Border Background="Blue" CornerRadius="10 0 10 0" Padding="5">
             <Button Content="un button" Width="100"/>
         </Border>
-        <ScrollViewer Height="100" Width="100" HorizontalScrollBarVisibility="Auto">
+        <!--strech 속성에 대해
+            none - 사진을 주어진 길이에 맞게 자름
+            fill - 사진을 주어진 길이에 맞게 늘림
+            uniform - 사진을 주어진 길이에 맞게 조절함(비율 고정)
+        -->
+        <Viewbox Stretch="Uniform" Height="200px">
             <MediaElement Source="imgs/15_Jun_22_13_15_모작.png" Stretch="None"/>
-        </ScrollViewer>
+        </Viewbox>
+        <Frame Source="/Page1.xml"/>
     </StackPanel>
 </Window>
