@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32328.378
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kestrel", "Kestrel.csproj", "{FFC3B7E6-BDC1-4A51-B14E-650072C8FD35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeShop", "..\BikeShop\BikeShop.csproj", "{92763506-0708-4C97-83AA-192EAA0D8DF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BikeShop", "..\BikeShop\BikeShop.csproj", "{92763506-0708-4C97-83AA-192EAA0D8DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greylag", "..\Greylag\Greylag.csproj", "{01079ADA-BD46-4381-90CF-070F8347E523}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{92763506-0708-4C97-83AA-192EAA0D8DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92763506-0708-4C97-83AA-192EAA0D8DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92763506-0708-4C97-83AA-192EAA0D8DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01079ADA-BD46-4381-90CF-070F8347E523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01079ADA-BD46-4381-90CF-070F8347E523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01079ADA-BD46-4381-90CF-070F8347E523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01079ADA-BD46-4381-90CF-070F8347E523}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
