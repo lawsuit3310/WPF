@@ -31,5 +31,12 @@ namespace BikeShop
                     new Uri("/Contact.xaml",UriKind.Relative)
                 );
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(
+                new Uri("/Discussion.xaml",UriKind.Relative) //상대 경로의 파일을 찾아감
+                );
+        }
     }
 }

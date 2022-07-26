@@ -9,14 +9,20 @@
       Title="Menu">
 
     <Grid>
+        <!--버튼의 크기를 margin을 통해서 정했기 때문에 화면의 크기를 조절하면 버튼의 크기도 바뀜-->
         <Button Content="Product" Margin="195,50,480,285"/>
-        <Button Content="Live Support" Margin="345,50,330,285"/>
+        <Button Content="Live Support" Margin="345,50,330,285" Click="Button_Click_1"/>
         <Button Margin="495,50,180,285" Click="Button_Click">
             <Button.Content>
-               Email Support
+                <!--기본적으로 버튼의 Content는 한 개로 제한 되지만, Panel을 사용하여 여러개의 Content를 사용함-->
+                <!--Panel은 Canvas, StackPanel, DockPanel, WrapPanel, UnifromGrid, Grid-->
+                <DockPanel>
+                    <Label>응애</Label>
+                    <!--이유는 모르겠지만 실제로 실행시키면 안보임-->
+                    <Image Source="/imgs/sample_img.png"/>
+                </DockPanel>
             </Button.Content>
         </Button>
         <TextBlock HorizontalAlignment="Left" Margin="195,225,0,0" TextWrapping="Wrap" Text="Adventure works" VerticalAlignment="Top" Height="160" Width="425" FontStyle="Italic" FontSize="24"/>
-
     </Grid>
 </Page>
