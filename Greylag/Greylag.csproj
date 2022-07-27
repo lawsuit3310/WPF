@@ -90,6 +90,9 @@
   <ItemGroup>
     <Content Include="FrmASPNET.aspx" />
     <Content Include="FrmHelloWorld.aspx" />
+    <Content Include="FrmResponseBuffer.aspx" />
+    <Content Include="FrmResponseRedirect.aspx" />
+    <Content Include="FrmResponseWrite.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -108,6 +111,27 @@
     </Compile>
     <Compile Include="FrmHelloWorld.aspx.designer.cs">
       <DependentUpon>FrmHelloWorld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResponseBuffer.aspx.cs">
+      <DependentUpon>FrmResponseBuffer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmResponseBuffer.aspx.designer.cs">
+      <DependentUpon>FrmResponseBuffer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResponseRedirect.aspx.cs">
+      <DependentUpon>FrmResponseRedirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmResponseRedirect.aspx.designer.cs">
+      <DependentUpon>FrmResponseRedirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResponseWrite.aspx.cs">
+      <DependentUpon>FrmResponseWrite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmResponseWrite.aspx.designer.cs">
+      <DependentUpon>FrmResponseWrite.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
